@@ -1,0 +1,76 @@
+@media screen and (min-width: 769px) {
+    header {
+      flex-direction: row;
+      text-align: left;
+    }
+  
+    .navigation {
+      margin-top: 0;
+    }
+  
+    .main__info {
+      padding: 0;
+    }
+  
+    .main__info p {
+      font-size: 18px;
+      margin: 28px 0;
+    }
+  
+    .main__info div {
+      flex-direction: row;
+      row-gap: 0;
+    }
+  
+    .main__info div a,
+    .main__info div button {
+      width: auto;
+      padding: 10px 20px;
+    }
+  
+    #background::after {
+      background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navigation {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 10px;
+    }
+  
+    .navigation__link {
+      font-size: 12px;
+    }
+  
+    .main__info {
+      max-width: 100%;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .main__info p {
+      font-size: 16px;
+    }
+  
+    .main__info div {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  
+    .main__info div a,
+    .main__info div button {
+      width: auto;
+      padding: 10px 20px;
+    }
+  
+    #background::after {
+      background: linear-gradient(109deg, rgba(10, 12, 16, 0.))
+    }
+}
